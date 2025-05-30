@@ -16,6 +16,10 @@ website:
 
 format:
   html:
+    echo: false
+    message: false
+    warning: false
+    results: 'hide'
     theme:
       light: journal
       dark: solar

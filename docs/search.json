@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "yonatan-grossman.github.io",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Things I did (or am working on (look most of this text is placeholder I’m just showing you that I can do it(now I kinda wonder what the work limit here is)))",
     "section": "",
-    "text": "Hio! This is a website I made in an environmental data science class. I’m a student at UCSB currently pursuing a B.S. in Environmental Studies. This lil blurb is just a placeholder for now, though, there’s big things coming soon I promise"
+    "text": "Yes this was me I was the one who invented this\n\n\n  format width height colorspace matte filesize density\n1   WEBP   400    267       sRGB FALSE        0   72x72"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About this site\n\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "yonatan-grossman.github.io",
+    "section": "",
+    "text": "Hio! This is a website I made in an environmental data science class. I’m a student at UCSB currently pursuing a B.S. in Environmental Studies. This lil blurb is just a placeholder for now, though, there’s big things coming soon I promise"
   }
 ]
