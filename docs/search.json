@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Things I did (or am working on (look most of this text is placeholder))",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
     "section": "",
-    "text": "Yes this was me I was the one who invented this\n\n\n\n\n\n\n\n\n\nI worked really hard inventing the horse I hope you like it.\nI only made one though so if you see another one that’s NOT one of mine that’s a FAKE horse you should run away\n\n\n\n\n\n\n\n\n\nYup I also invented cumin"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n\n[1] 2"
+    "text": "Things I’ve done: - Went to the moon - Eaten a fig - Done a cartwheel - Fallen on my butt - Learned how to read an analogue clock - Legally changed my name - Made a mighty fine smoked gouda - Lied only once on this list - Looked mighty fine in a leather jacket - Made several colossal social blunders - Slept in super super late on a school day - Eaten one too many marshmallows - Started a discord server\nEverything here is absolutely true except for one thing, if you guess it correctly I will give you four (4) jellybeans of your choice (except no green ones)"
   },
   {
     "objectID": "index.html",
@@ -19,5 +12,26 @@
     "title": "yonatan-grossman.github.io",
     "section": "",
     "text": "Hio! This is a website I made in an environmental data science class. I’m a student at UCSB currently pursuing a B.S. in Environmental Studies. This lil blurb is just a placeholder for now, though, there’s big things coming soon I promise"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me!",
+    "section": "",
+    "text": "About this site. Look at this math. You can’t see the equations cuz I hid them but they’re there just trust me\n\n\n[1] 2\n\n\n[1] 16\n\n\n[1] -3818.136"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Here’s some photo’s n stuff",
+    "section": "",
+    "text": "Just kidding not yet. April fools :)"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Things I did (or am working on (look most of this text is placeholder))",
+    "section": "",
+    "text": "Yes this was me I was the one who invented this\n\n\n\n\n\n\n\n\n\nI worked really hard inventing the horse I hope you like it.\nI only made one though so if you see another one that’s NOT one of mine that’s a FAKE horse you should run away\n\n\n\n\n\n\n\n\n\nYup I also invented cumin"
   }
 ]
