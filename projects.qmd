@@ -19,3 +19,16 @@ grid::grid.raster(horse_done) #print it
 
 ```
 
+I worked really hard inventing the horse I hope you like it.
+
+I only made one though so if you see another one that's NOT one of mine that's a FAKE horse you should run away
+
+```{r}
+cumin <- magick::image_read("images/cumin-powder.jpg") #find the photo
+
+cumin_done <- image_scale(cumin, "100")
+
+grid::grid.raster(cumin_done) #
+```
+
+
