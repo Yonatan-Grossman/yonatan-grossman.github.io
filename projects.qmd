@@ -1,0 +1,22 @@
+---
+title: "Things I did (or am working on (look most of this text is placeholder I'm just showing you that I can do it(now I kinda wonder what the work limit here is)))"
+format: html
+---
+
+
+
+```{r}
+library(magick)
+```
+
+Yes this was me I was the one who invented this
+
+```{r}
+horse <- image_read("images/horse_for_git2.webp") #find the photo
+
+horse_done <- image_scale(horse, "400")
+
+print(horse_done) #print it
+
+```
+

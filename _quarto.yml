@@ -11,6 +11,8 @@ website:
       - about.qmd
       - href: gallery.qmd
         text: Gallery
+      - href: projects.qmd
+        text: Projects
 
 format:
   html:
