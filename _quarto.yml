@@ -13,6 +13,7 @@ website:
         text: Gallery
       - href: projects.qmd
         text: Projects
+      - resume.qmd
 
 format:
   html:

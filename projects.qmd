@@ -31,4 +31,5 @@ cumin_done <- image_scale(cumin, "100")
 grid::grid.raster(cumin_done) #
 ```
 
+Yup I also invented cumin
 

@@ -1,9 +1,13 @@
 ---
-title: "About"
+title: "About me!"
 ---
 
-About this site
+About this site. Look at this math. You can't see the equations cuz I hid them but they're there just trust me
 
 ```{r}
 1 + 1
+
+4*4
+
+(sqrt(2342)*213+1)/-2.7
 ```

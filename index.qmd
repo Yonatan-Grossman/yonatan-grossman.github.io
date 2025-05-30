@@ -1,6 +1,6 @@
 ---
 website:
-  title: "Yonatan Grossman"
+  title: "Yonatan Grossman (that's me)"
   navbar:
   left:
     - href: index.qmd
