@@ -13,7 +13,8 @@ website:
         text: Gallery
       - href: projects.qmd
         text: Projects
-      - resume.qmd
+      - href: resume_Grossman_Yonatan.pdf
+        text: Resume
 
 format:
   html:
