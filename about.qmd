@@ -1,9 +1,7 @@
 ---
-title: "About me!"
+title: "Things I love to do outside of school"
 toc: true
 ---
-
-# Things I love to do outside of school
 
 #### Staying active
 

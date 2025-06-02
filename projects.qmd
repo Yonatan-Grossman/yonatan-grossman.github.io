@@ -1,33 +1,10 @@
 ---
-title: "Things I did (or am working on (look most of this text is placeholder))"
+title: "ArcGIS"
 format: html
 ---
 
-```{r}
-library(magick)
-```
+I started learning what GIS was how to use the software earlier this year, and have since taken two of the classes offered at UCSB with the intention to take two more next year. I've really enjoyed getting to toy with spatial data and have even used the skills I developed to work on my own projects. Here is the storymap to the final project of one of my GIS classes.
 
-Yes this was me I was the one who invented this
-
-```{r}
-horse <- magick::image_read("images/horse_for_git2.webp") #find the photo
-
-horse_done <- image_scale(horse, "400")
-
-grid::grid.raster(horse_done) #print it
-
-```
-
-I worked really hard inventing the horse I hope you like it.
-
-I only made one though so if you see another one that's NOT one of mine that's a FAKE horse you should run away
-
-```{r}
-cumin <- magick::image_read("images/cumin-powder.jpg") #find the photo
-
-cumin_done <- image_scale(cumin, "100")
-
-grid::grid.raster(cumin_done) #
-```
-
-Yup I also invented cumin
+<iframe src="https://storymaps.arcgis.com/stories/5faf705556174a63a4c84a16f78f1bb6"
+        width="100%" height="800" frameborder="0" allowfullscreen>
+</iframe>
