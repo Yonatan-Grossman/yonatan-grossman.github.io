@@ -3,7 +3,6 @@ title: "Things I did (or am working on (look most of this text is placeholder))"
 format: html
 ---
 
-
 ```{r}
 library(magick)
 ```
@@ -32,4 +31,3 @@ grid::grid.raster(cumin_done) #
 ```
 
 Yup I also invented cumin
-

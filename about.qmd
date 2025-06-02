@@ -1,13 +1,10 @@
 ---
 title: "About me!"
+toc: true
 ---
 
-About this site. Look at this math. You can't see the equations cuz I hid them but they're there just trust me
+# Things I love to do outside of school
 
-```{r}
-1 + 1
+#### Staying active
 
-4*4
-
-(sqrt(2342)*213+1)/-2.7
-```
+I've never really enjoyed going to the gym, but I do love to stay active. Over my 3 years at UCSB I have spent a lot of my time surfing, hiking, swimming, rock climbing, juggling, dancing, and, most recently, started learning parkour and jiu jitsu. I always enjoy learning a new physical skill and it's been really cool learning how to move in new and different ways.
