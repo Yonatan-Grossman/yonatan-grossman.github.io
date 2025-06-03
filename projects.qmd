@@ -20,4 +20,33 @@ We collected data from various online sources, uploaded them to arcGIS online, a
 
 ## Outside class
 
-I've really enjoyed learning about and using GIS software, and have used it in some of my own projects as well. I am currently working on a project on my own that compares the distribution of various religions in central and south Asia, specifically the Indian subcontinent.
+I've really enjoyed learning about and using GIS software, and have used it in some of my own projects as well. I am currently working on a project on my own that compares the distribution of various religions in central and south Asia, specifically the Indian subcontinent. Although the project itself is incomplete, I still have a lot of the data downloaded and ready. This is a graph of the data I gathered from a 2011 Indian Census about religious population by region.
+
+```{r}
+library(tidyverse)
+library(janitor)
+```
+
+```{r}
+religion <- read.csv("data/religion_data.csv") |> 
+  clean_names() |> 
+  select(where(~ any(!is.na(.x)))) #read in the data then clean it. Alsop removes columns with n/a values
+
+religion_clean <- religion |> 
+  
+
+religion |> 
+  rename(other =
+           other_religions_and_persuasions_incl_unclassified_sect,
+         not.stated = religion_not_stated,
+         State = area_name) |> #rename the longer column names to something easier/more accurate
+  pivot_longer( cols = -State,
+                names_to = "Religion",
+                values_to = "Population")
+
+ggplot(religion_clean,
+       aes(x = State,
+           y = Population,
+           fill = Religion)) +
+  geom_bar(position = "stack", stat = "identity")
+```
