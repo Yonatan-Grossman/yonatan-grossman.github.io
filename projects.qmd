@@ -1,6 +1,11 @@
 ---
 title: "ArcGIS"
 format: html
+ html:
+    echo: true
+    message: true
+    warning: true
+    results: 'show'
 ---
 
 ## In class
