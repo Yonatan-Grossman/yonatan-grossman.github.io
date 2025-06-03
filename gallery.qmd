@@ -1,6 +1,11 @@
 ---
 title: "Here's some photo's n stuff"
 format: html
+ html:
+    echo: false
+    message: false
+    warning: false
+    results: 'hide'
 ---
 
 Put my college experience so far here in a series of photos
