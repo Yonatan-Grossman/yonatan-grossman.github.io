@@ -32,21 +32,42 @@ religion <- read.csv("data/religion_data.csv") |>
   clean_names() |> 
   select(where(~ any(!is.na(.x)))) #read in the data then clean it. Alsop removes columns with n/a values
 
-religion_clean <- religion |> 
-  
+religion <- religion[1:35, ]
 
-religion |> 
+religion <- religion |> 
+  select(-c("x_63", "x_67", "x_70", "x_73", "code", "total")) 
+  
+religion <-religion |> 
   rename(other =
            other_religions_and_persuasions_incl_unclassified_sect,
-         not.stated = religion_not_stated,
+         "not stated" = religion_not_stated,
          State = area_name) |> #rename the longer column names to something easier/more accurate
   pivot_longer( cols = -State,
                 names_to = "Religion",
                 values_to = "Population")
 
-ggplot(religion_clean,
+top_religions <- c("hindu", "muslim", "christian", "sikh")
+
+religion <- religion |>
+  mutate(
+    Religion = fct_other(Religion,
+                         keep = top_religions,
+                         other_level = "other")) |> 
+  group_by(State,
+           Religion) |>     
+  summarise(Population = sum(Population,
+                             na.rm = TRUE),
+            .groups = "drop")
+
+
+ggplot(religion,
        aes(x = State,
            y = Population,
            fill = Religion)) +
-  geom_bar(position = "stack", stat = "identity")
+  geom_bar(position = "fill", stat = "identity") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 7)) +
+  labs(title = "Religion in Indian States by Percent of Population",
+       subtitle = "Yonatan Grossman",
+       caption = "Data from:  http://censusindia.gov.in") +
+  ylab("Population Percent")
 ```
