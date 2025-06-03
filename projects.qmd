@@ -30,12 +30,12 @@ library(janitor)
 ```{r}
 religion <- read.csv("data/religion_data.csv") |> 
   clean_names() |> 
-  select(where(~ any(!is.na(.x)))) #read in the data then clean it. Alsop removes columns with n/a values
+  select(where(~ any(!is.na(.x)))) #read in the data then clean it. Also removes columns with n/a values
 
-religion <- religion[1:35, ]
+religion <- religion[1:35, ] #only keeps the first 35 rows (since the rest were n/a values)
 
 religion <- religion |> 
-  select(-c("x_63", "x_67", "x_70", "x_73", "code", "total")) 
+  select(-c("x_63", "x_67", "x_70", "x_73", "code", "total")) #getting rid of some extra columns not useful to this graoph
   
 religion <-religion |> 
   rename(other =
@@ -44,30 +44,32 @@ religion <-religion |>
          State = area_name) |> #rename the longer column names to something easier/more accurate
   pivot_longer( cols = -State,
                 names_to = "Religion",
-                values_to = "Population")
+                values_to = "Population") #pivot the data to long format so there's only three columns
 
-top_religions <- c("hindu", "muslim", "christian", "sikh")
+top_religions <- c("hindu", "muslim", "christian", "sikh") #new variable of the 4 most populous religions
 
 religion <- religion |>
   mutate(
     Religion = fct_other(Religion,
                          keep = top_religions,
-                         other_level = "other")) |> 
+                         other_level = "other")) |> #drops all religions that aren't in the top religions and puts them in an "other" catagory (this turns them into levels)
   group_by(State,
            Religion) |>     
   summarise(Population = sum(Population,
                              na.rm = TRUE),
-            .groups = "drop")
+            .groups = "drop") #sum the values of the dropped religions into an other level
 
+religion$Religion <- factor(religion$Religion, levels=c('hindu', 'muslim', 'christian', 'sikh', 'other')) #defines levels to control the order the religions are displayed
 
-ggplot(religion,
-       aes(x = State,
+ggplot(religion, #data
+       aes(x = State, 
            y = Population,
-           fill = Religion)) +
-  geom_bar(position = "fill", stat = "identity") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 7)) +
+           fill = Religion)) + #axis definition + allows the fill color to be chosed by the religion
+  geom_bar(position = "fill", stat = "identity") + #make a stacked bar graph
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 7)) + #tilt the x-axis labels and makes them smaller so it's easier to read
   labs(title = "Religion in Indian States by Percent of Population",
        subtitle = "Yonatan Grossman",
-       caption = "Data from:  http://censusindia.gov.in") +
-  ylab("Population Percent")
+       caption = "Data from:  http://censusindia.gov.in") + #adds title, subtitle, and caption
+  ylab("Population Percent") + #edits the y-axis label
+  scale_fill_manual(values = c("#F4C430","#219909", "white","#003688","red")) #chooses colors (I tried to choose ones that were significant to the religions and also contrasted well)
 ```
