@@ -1,13 +1,5 @@
 ---
 title: "My college experience so far in photos"
-format:
-  html:
-    filters: [lightbox]
-    lightbox:
-      match: auto
-      effect: zoom
-      desc-position: bottom
-      loop: true
 ---
 
 ### Freshman year

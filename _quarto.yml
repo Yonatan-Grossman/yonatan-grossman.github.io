@@ -24,6 +24,13 @@ format:
       dark: solar
     css: styles.css
     toc: true
+    filters: [lightbox]
+    lightbox:
+      match: auto
+      effect: zoom
+      desc-position: bottom
+      loop: true
+
 
 editor: visual
 
