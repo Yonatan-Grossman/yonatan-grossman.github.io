@@ -20,3 +20,10 @@
 .crop-thumbs img:hover {
   transform: scale(1.05);
 }
+
+.gallery-grid p {
+  margin: 0;
+}
+.gallery-grid p img {
+  display: block;
+}
