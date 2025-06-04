@@ -4,6 +4,7 @@ title: "My college experience so far in photos"
 
 ### Freshman year
 
+::: {.gallery-grid}
 
 ![On my way!](images/gallery/omw.jpg){.lightbox group="freshman year"}
 
@@ -13,9 +14,9 @@ title: "My college experience so far in photos"
 ![Sunset](images/gallery/beach_sunset.jpg){.lightbox group="freshman year"}
 
 ![Seal we found](images/gallery/dead_seal.jpg){.lightbox group="freshman year"}
-![pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year"}
+![Pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year"}
 
-![rocks](images/gallery/rocks.jpg){.lightbox group="freshman year"}
+![Rocks](images/gallery/rocks.jpg){.lightbox group="freshman year"}
 
 ![The Longest Johns! (Sea shanty concert it was awesome)](images/gallery/tlj.jpg){.lightbox group="freshman year"}
 
@@ -32,7 +33,10 @@ title: "My college experience so far in photos"
 ![Joshua Tree](images/gallery/jtree.jpg){.lightbox group="freshman year"}
 
 ![Filming in Fresno](images/gallery/fresno.jpg){.lightbox group="freshman year"}
+:::
 
+
+### Sophomore year
 
 ![pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year"}
 
