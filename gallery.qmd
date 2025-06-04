@@ -78,4 +78,4 @@ title: "My college experience so far in photos"
 
 ![Music festival](images/gallery/music_festival!.jpeg){.lightbox group="junior year"}
 
-![Massive piece of Jarlsburg cheese that felt noteworthy](images/gallery/massive_piece_of_jarlsburg_cheese_that_felt_noteworthy.jpeg){.lightbox group="junior year"}
+![Massive piece of Jarlsberg cheese that felt noteworthy](images/gallery/massive_piece_of_jarlsburg_cheese_that_felt_noteworthy.jpeg){.lightbox group="junior year"}
