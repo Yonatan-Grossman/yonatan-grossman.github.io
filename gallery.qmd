@@ -5,5 +5,5 @@ title: "My college experience so far in photos"
 ### Freshman year
 
 ```         
-![On my way!](images/gallery/omw.jpg){.lightbox group="freshman year" title="Leaving home"}
+![Test](images/gallery/omw.jpg)
 ```
