@@ -4,7 +4,7 @@ title: "My college experience so far in photos"
 
 ### Freshman year
 
-::: {.gallery-grid}
+::: {.gallery-grid crop-thumbs}
 
 ![On my way!](images/gallery/omw.jpg){.lightbox group="freshman year" width="200"}
 
@@ -38,5 +38,5 @@ title: "My college experience so far in photos"
 
 ### Sophomore year
 
-![pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year"}
+![pelicans](images/gallery/pelican.jpg){.lightbox group="sophomore year"}
 
