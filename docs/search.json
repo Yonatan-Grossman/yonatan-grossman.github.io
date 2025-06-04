@@ -25,7 +25,7 @@
     "href": "gallery.html",
     "title": "My college experience so far in photos",
     "section": "",
-    "text": "Freshman year\n\n\n\n\nOn my way!\n\n\n \n\n\n\nSunset\n\n\n \n\n\n\nRocks\n\n\n\n\n\nThe Longest Johns! (Sea shanty concert it was awesome)\n\n\n\n\n\nOn set, assistant directing\n\n\n\n\n\nHalloween town\n\n\n\n\n\nMy first Jack O’lantern!\n\n\n\n\n\nMontecito hotsprings\n\n\n\n\n\nSpring quarter starts\n\n\n\n\n\nJoshua Tree\n\n\n\n\n\nFilming in Fresno\n\n\n\n\n\nSophomore year\n\n\n\npelicans"
+    "text": "Freshman year\n::: {.gallery-grid crop-thumbs}\n\n\n\nOn my way!\n\n\n \n\n\n\nSunset\n\n\n \n\n\n\nRocks\n\n\n\n\n\nThe Longest Johns! (Sea shanty concert it was awesome)\n\n\n\n\n\nOn set, assistant directing\n\n\n\n\n\nHalloween town\n\n\n\n\n\nMy first Jack O’lantern!\n\n\n\n\n\nMontecito hotsprings\n\n\n\n\n\nSpring quarter starts\n\n\n\n\n\nJoshua Tree\n\n\n :::\n\n\nSophomore year\n\n\n\npelicans"
   },
   {
     "objectID": "projects.html",

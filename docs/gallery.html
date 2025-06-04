@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="freshman-year" class="level3">
 <h3 class="anchored" data-anchor-id="freshman-year">Freshman year</h3>
-<div class="gallery-grid">
+<p>::: {.gallery-grid crop-thumbs}</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="images/gallery/omw.jpg" class="lightbox" data-gallery="freshman year" title="On my way!"><img src="images/gallery/omw.jpg" class="img-fluid figure-img" width="200" alt="On my way!"></a></p>
@@ -222,19 +222,13 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>Joshua Tree</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/gallery/fresno.jpg" class="lightbox" data-gallery="freshman year" title="Filming in Fresno"><img src="images/gallery/fresno.jpg" class="img-fluid figure-img" width="200" alt="Filming in Fresno"></a></p>
-<figcaption>Filming in Fresno</figcaption>
-</figure>
-</div>
-</div>
+<p><a href="images/gallery/fresno.jpg" class="lightbox" data-gallery="freshman year" title="Filming in Fresno"><img src="images/gallery/fresno.jpg" class="img-fluid" width="200" alt="Filming in Fresno"></a> :::</p>
 </section>
 <section id="sophomore-year" class="level3">
 <h3 class="anchored" data-anchor-id="sophomore-year">Sophomore year</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/gallery/pelican.jpg" class="lightbox" data-gallery="freshman year" title="pelicans"><img src="images/gallery/pelican.jpg" class="img-fluid figure-img" alt="pelicans"></a></p>
+<p><a href="images/gallery/pelican.jpg" class="lightbox" data-gallery="sophomore year" title="pelicans"><img src="images/gallery/pelican.jpg" class="img-fluid figure-img" alt="pelicans"></a></p>
 <figcaption>pelicans</figcaption>
 </figure>
 </div>
@@ -808,7 +802,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":true,"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":true,"descPosition":"bottom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
