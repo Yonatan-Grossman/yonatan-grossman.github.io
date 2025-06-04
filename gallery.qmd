@@ -4,6 +4,35 @@ title: "My college experience so far in photos"
 
 ### Freshman year
 
-```         
-![Test](images/gallery/omw.jpg)
-```
+
+![On my way!](images/gallery/omw.jpg){.lightbox group="freshman year"}
+
+![Arrived](images/gallery/arrived.jpg){.lightbox group="freshman year"}
+![Welcome to school rave](images/gallery/storke_rave.jpg){.lightbox group="freshman year"}
+
+![Sunset](images/gallery/beach_sunset.jpg){.lightbox group="freshman year"}
+
+![Seal we found](images/gallery/dead_seal.jpg){.lightbox group="freshman year"}
+![pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year"}
+
+![rocks](images/gallery/rocks.jpg){.lightbox group="freshman year"}
+
+![The Longest Johns! (Sea shanty concert it was awesome)](images/gallery/tlj.jpg){.lightbox group="freshman year"}
+
+![On set, assistant directing](images/gallery/filming.jpg){.lightbox group="freshman year"}
+
+![Halloween town](images/gallery/halloween_town.jpg){.lightbox group="freshman year"}
+
+![My first Jack O'lantern!](images/gallery/clancy.jpeg){.lightbox group="freshman year"}
+
+![Montecito hotsprings](images/gallery/hotspring_hike.jpg){.lightbox group="freshman year"}
+
+![Spring quarter starts](images/gallery/lounging.jpg){.lightbox group="freshman year"}
+
+![Joshua Tree](images/gallery/jtree.jpg){.lightbox group="freshman year"}
+
+![Filming in Fresno](images/gallery/fresno.jpg){.lightbox group="freshman year"}
+
+
+![pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year"}
+
