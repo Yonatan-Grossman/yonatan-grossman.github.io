@@ -60,19 +60,22 @@ title: "My college experience so far in photos"
 
 ### Junior year
 
-![Another movie I worked on this year](images/gallery/more_filming.jpeg){.lightbox group="sophomore year"}
+![Really good meal I cooked](images/gallery/Really_good_meal_I_cooked.jpeg){.lightbox group="junior year"}
 
-![Another movie I worked on this year](images/gallery/more_filming.jpeg){.lightbox group="sophomore year"}
+![Halloween town 3](images/gallery/Halloween_town_3.jpeg){.lightbox group="junior year"}
 
-![Another movie I worked on this year](images/gallery/more_filming.jpeg){.lightbox group="sophomore year"}
+![First time in LA](images/gallery/first_time_in_LA.jpeg){.lightbox group="junior year"}
 
-![Another movie I worked on this year](images/gallery/more_filming.jpeg){.lightbox group="sophomore year"}
+![Packing boxes at my job](images/gallery/packing_boxes_at_my_job.jpeg){.lightbox group="junior year"}
 
-![Another movie I worked on this year](images/gallery/more_filming.jpeg){.lightbox group="sophomore year"}
+![Channel Island trip](images/gallery/channel_island_trip.jpeg){.lightbox group="junior year"}
 
-![Another movie I worked on this year](images/gallery/more_filming.jpeg){.lightbox group="sophomore year"}
+![Hike with study abroad friends](images/gallery/hike_with_study_abroad_friends.jpeg){.lightbox group="junior year"}
 
-![Another movie I worked on this year](images/gallery/more_filming.jpeg){.lightbox group="sophomore year"}
+![Pinnacles National Park](images/gallery/pinnicles_national_park.jpeg){.lightbox group="junior year"}
 
-![Another movie I worked on this year](images/gallery/more_filming.jpeg){.lightbox group="sophomore year"}
+![Another pretty sunset](images/gallery/another_pretty_sunset.jpeg){.lightbox group="junior year"}
 
+![Music festival](images/gallery/music_festival!.jpeg){.lightbox group="junior year"}
+
+![Massive piece of Jarlsburg cheese that felt noteworthy](images/gallery/massive_piece_of_jarlsburg_cheese_that_felt_noteworthy.jpeg){.lightbox group="junior year"}
