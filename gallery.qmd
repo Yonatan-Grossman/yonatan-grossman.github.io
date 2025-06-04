@@ -6,33 +6,33 @@ title: "My college experience so far in photos"
 
 ::: {.gallery-grid}
 
-![On my way!](images/gallery/omw.jpg){.lightbox group="freshman year"}
+![On my way!](images/gallery/omw.jpg){.lightbox group="freshman year" width="200"}
 
-![Arrived](images/gallery/arrived.jpg){.lightbox group="freshman year"}
-![Welcome to school rave](images/gallery/storke_rave.jpg){.lightbox group="freshman year"}
+![Arrived](images/gallery/arrived.jpg){.lightbox group="freshman year" width="200"}
+![Welcome to school rave](images/gallery/storke_rave.jpg){.lightbox group="freshman year" width="200"}
 
-![Sunset](images/gallery/beach_sunset.jpg){.lightbox group="freshman year"}
+![Sunset](images/gallery/beach_sunset.jpg){.lightbox group="freshman year" width="200"}
 
-![Seal we found](images/gallery/dead_seal.jpg){.lightbox group="freshman year"}
-![Pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year"}
+![Seal we found](images/gallery/dead_seal.jpg){.lightbox group="freshman year" width="200"}
+![Pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year" width="200"}
 
-![Rocks](images/gallery/rocks.jpg){.lightbox group="freshman year"}
+![Rocks](images/gallery/rocks.jpg){.lightbox group="freshman year" width="200"}
 
-![The Longest Johns! (Sea shanty concert it was awesome)](images/gallery/tlj.jpg){.lightbox group="freshman year"}
+![The Longest Johns! (Sea shanty concert it was awesome)](images/gallery/tlj.jpg){.lightbox group="freshman year" width="200"}
 
-![On set, assistant directing](images/gallery/filming.jpg){.lightbox group="freshman year"}
+![On set, assistant directing](images/gallery/filming.jpg){.lightbox group="freshman year" width="200"}
 
-![Halloween town](images/gallery/halloween_town.jpg){.lightbox group="freshman year"}
+![Halloween town](images/gallery/halloween_town.jpg){.lightbox group="freshman year" width="200"}
 
-![My first Jack O'lantern!](images/gallery/clancy.jpeg){.lightbox group="freshman year"}
+![My first Jack O'lantern!](images/gallery/clancy.jpeg){.lightbox group="freshman year" width="200"}
 
-![Montecito hotsprings](images/gallery/hotspring_hike.jpg){.lightbox group="freshman year"}
+![Montecito hotsprings](images/gallery/hotspring_hike.jpg){.lightbox group="freshman year" width="200"}
 
-![Spring quarter starts](images/gallery/lounging.jpg){.lightbox group="freshman year"}
+![Spring quarter starts](images/gallery/lounging.jpg){.lightbox group="freshman year" width="200"}
 
-![Joshua Tree](images/gallery/jtree.jpg){.lightbox group="freshman year"}
+![Joshua Tree](images/gallery/jtree.jpg){.lightbox group="freshman year" width="200"}
 
-![Filming in Fresno](images/gallery/fresno.jpg){.lightbox group="freshman year"}
+![Filming in Fresno](images/gallery/fresno.jpg){.lightbox group="freshman year" width="200"}
 :::
 
 
