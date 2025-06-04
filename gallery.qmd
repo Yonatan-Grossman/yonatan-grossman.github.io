@@ -4,7 +4,7 @@ title: "My college experience so far in photos"
 
 ### Freshman year
 
-::: {.gallery-grid crop-thumbs}
+::: {.gallery-grid.crop-thumbs}
 
 ![On my way!](images/gallery/omw.jpg){.lightbox group="freshman year"}
 
