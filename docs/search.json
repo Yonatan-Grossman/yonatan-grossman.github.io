@@ -23,9 +23,9 @@
   {
     "objectID": "gallery.html",
     "href": "gallery.html",
-    "title": "Here’s some photo’s n stuff",
+    "title": "My college experience so far in photos",
     "section": "",
-    "text": "Put my college experience so far here in a series of photos"
+    "text": "Freshman year\n![On my way!](\"images\\gallery\\omw.jpg\"){.lightbox group=\"freshman year\"}\n\n\n\nWorking web image"
   },
   {
     "objectID": "projects.html",

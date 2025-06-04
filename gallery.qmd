@@ -1,6 +1,19 @@
 ---
-title: "Here's some photo's n stuff"
-format: html
+title: "My college experience so far in photos"
+format:
+  html:
+    filters: [lightbox]
+    lightbox:
+      match: auto
+      effect: zoom
+      desc-position: bottom
+      loop: true
 ---
 
-Put my college experience so far here in a series of photos
+### Freshman year
+
+```         
+![On my way!]("images\gallery\omw.jpg"){.lightbox group="freshman year"}
+```
+
+![Working web image](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/640px-PNG_transparency_demonstration_1.png)
