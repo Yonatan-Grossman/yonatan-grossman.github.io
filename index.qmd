@@ -1,11 +1,13 @@
 ---
 website:
-  title: "Yonatan Grossman (that's me)"
   navbar:
   left:
     - href: index.qmd
       text: Home
     - about.qmd
+
+title: "Yonatan Grossman (that's not actually me but I couldn't find a photo I liked)"
+  
     
 toc: false
 image: images/chris_pine.jpg
