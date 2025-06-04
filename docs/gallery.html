@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="freshman-year" class="level3">
 <h3 class="anchored" data-anchor-id="freshman-year">Freshman year</h3>
-<p>::: {.gallery-grid crop-thumbs}</p>
+<div class="gallery-grid.crop-thumbs">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="images/gallery/omw.jpg" class="lightbox" data-gallery="freshman year" title="On my way!"><img src="images/gallery/omw.jpg" class="img-fluid figure-img" alt="On my way!"></a></p>
@@ -222,7 +222,13 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>Joshua Tree</figcaption>
 </figure>
 </div>
-<p><a href="images/gallery/fresno.jpg" class="lightbox" data-gallery="freshman year" title="Filming in Fresno"><img src="images/gallery/fresno.jpg" class="img-fluid" alt="Filming in Fresno"></a> :::</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gallery/fresno.jpg" class="lightbox" data-gallery="freshman year" title="Filming in Fresno"><img src="images/gallery/fresno.jpg" class="img-fluid figure-img" alt="Filming in Fresno"></a></p>
+<figcaption>Filming in Fresno</figcaption>
+</figure>
+</div>
+</div>
 </section>
 <section id="sophomore-year" class="level3">
 <h3 class="anchored" data-anchor-id="sophomore-year">Sophomore year</h3>
@@ -802,7 +808,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":true,"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","loop":true,"openEffect":"zoom","selector":".lightbox"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
