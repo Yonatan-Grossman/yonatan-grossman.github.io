@@ -49,3 +49,9 @@ a:hover {
 #TOC a:hover {
   color: #black;
 }
+
+.gslide-title {
+  color: white !important;
+  text-align: center;
+}
+

@@ -11,15 +11,15 @@ title: "My college experience so far in photos"
 
 ![Sunset](images/gallery/beach_sunset.jpg){.lightbox group="freshman year"}
 
-![Seal we found](images/gallery/dead_seal.jpg){.lightbox group="freshman year"} ![Pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year"}
+![Seal some folks found on te beach](images/gallery/dead_seal.jpg){.lightbox group="freshman year"} ![Pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year"}
 
-![Rocks](images/gallery/rocks.jpg){.lightbox group="freshman year"}
+![Rock sample for a lab I was working for](images/gallery/rocks.jpg){.lightbox group="freshman year"}
 
-![The Longest Johns! (Sea shanty concert it was awesome)](images/gallery/tlj.jpg){.lightbox group="freshman year"}
+![The Longest Johns! (Sea shanty concert. It was awesome)](images/gallery/tlj.jpg){.lightbox group="freshman year"}
 
 ![On set, assistant directing](images/gallery/filming.jpg){.lightbox group="freshman year"}
 
-![Halloween town](images/gallery/halloween_town.jpg){.lightbox group="freshman year"}
+![Halloween town (Anisq'Oyo park in Isla Vista during Halloween)](images/gallery/halloween_town.jpg){.lightbox group="freshman year"}
 
 ![My first Jack O'lantern!](images/gallery/clancy.jpeg){.lightbox group="freshman year"}
 
@@ -29,7 +29,7 @@ title: "My college experience so far in photos"
 
 ![Joshua Tree](images/gallery/jtree.jpg){.lightbox group="freshman year"}
 
-![Filming in Fresno](images/gallery/fresno.jpg){.lightbox group="freshman year"}
+![Filming in Fresno, first week of summer](images/gallery/fresno.jpg){.lightbox group="freshman year"}
 
 ### Sophomore year
 
@@ -49,9 +49,9 @@ title: "My college experience so far in photos"
 
 ![Another sunset cuz they're pretty](images/gallery/another_sunset.jpeg){.lightbox group="sophomore year"}
 
-![Saw some bioluminesence!](images/gallery/bioluminesence.jpeg){.lightbox group="sophomore year"}
+![Saw some bioluminesence at Manzanita beach!](images/gallery/bioluminesence.jpeg){.lightbox group="sophomore year"}
 
-![Some dragons I made for a move](images/gallery/dragons.jpeg){.lightbox group="sophomore year"}
+![Some dragons I made for a movie](images/gallery/dragons.jpeg){.lightbox group="sophomore year"}
 
 ![Another movie I worked on this year](images/gallery/more_filming.jpeg){.lightbox group="sophomore year"}
 
@@ -60,18 +60,18 @@ title: "My college experience so far in photos"
 
 ![Halloween town 3](images/gallery/Halloween_town_3.jpeg){.lightbox group="junior year"}
 
-![First time in LA](images/gallery/first_time_in_LA.jpeg){.lightbox group="junior year"}
+![First time in LA proper](images/gallery/first_time_in_LA.jpeg){.lightbox group="junior year"}
 
 ![Packing boxes at my job](images/gallery/packing_boxes_at_my_job.jpeg){.lightbox group="junior year"}
 
-![Channel Island trip](images/gallery/channel_island_trip.jpeg){.lightbox group="junior year"}
+![Channel Island trip (Santa Cruz Island)](images/gallery/channel_island_trip.jpeg){.lightbox group="junior year"}
 
-![Hike with study abroad friends](images/gallery/hike_with_study_abroad_friends.jpeg){.lightbox group="junior year"}
+![Hike with study abroad friends I met in Costa Rica (they're UCSB students)](images/gallery/hike_with_study_abroad_friends.jpeg){.lightbox group="junior year"}
 
 ![Pinnacles National Park](images/gallery/pinnicles_national_park.jpeg){.lightbox group="junior year"}
 
 ![Another pretty sunset](images/gallery/another_pretty_sunset.jpeg){.lightbox group="junior year"}
 
-![Music festival](images/gallery/music_festival!.jpeg){.lightbox group="junior year"}
+![Music festival (LIB 2025)](images/gallery/music_festival!.jpeg){.lightbox group="junior year"}
 
 ![Massive piece of Jarlsberg that felt noteworthy](images/gallery/massive_piece_of_jarlsburg_cheese_that_felt_noteworthy.jpeg){.lightbox group="junior year"}

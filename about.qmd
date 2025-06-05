@@ -1,6 +1,8 @@
 ---
 title: "Things I love to do outside of school"
-toc: true
+format:
+  html:
+    toc: true
 ---
 
 #### Staying active

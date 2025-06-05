@@ -19,9 +19,7 @@ website:
 
 format:
   html:
-    theme: 
-      light: journal
-      dark: solar
+    theme: journal
     css: styles.css
     toc: true
     filters: [lightbox]

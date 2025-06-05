@@ -24,10 +24,10 @@ about:
 
 format:
   html:
-    theme: cosmo
+    theme: journal
     css: styles.css
     toc: true
     page-layout: full
 ---
 
-I'm a 3rd year undergraduate at UCSB currently pursuing a B.S. in Environmental Studies. In addition to the usual ES coursework I have also participated in field work with sea turtles and will continue my field studies journey next fall by studying the ecosystem of Chilean Patagonia for a semester.
+I'm a 3rd year undergraduate at UCSB currently pursuing a B.S. in Environmental Studies. In addition to the usual ES coursework I have also participated in field work with sea turtles and will continue my field studies journey next fall by studying the ecosystem of Chilean Patagonia for a semester. In addition to this I am one of the coordinators of the Halal Kosher Grocery Program, which is a program through the Basic Needs department that packs weekly grocery bags with Halal and Kosher for students who demonstrate financial need.
