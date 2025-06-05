@@ -64,4 +64,5 @@ img.lightbox {
   margin: 1em auto;       
   box-sizing: border-box;
   position: relative;
+  clear: both;
 }
