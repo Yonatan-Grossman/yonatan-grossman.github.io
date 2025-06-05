@@ -44,4 +44,9 @@ a:hover {
 toc {
   color: white;
 }
+
+
+.lb-caption {
+  color: white;  
+  text-align: center;
 }
