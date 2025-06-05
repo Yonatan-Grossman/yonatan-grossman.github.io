@@ -19,7 +19,7 @@ website:
 
 format:
   html:
-    theme:
+    theme: 
       light: journal
       dark: solar
     css: styles.css
