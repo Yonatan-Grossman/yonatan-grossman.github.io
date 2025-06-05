@@ -53,5 +53,6 @@ a:hover {
 .gslide-title {
   color: white !important;
   text-align: center;
+  font-weight: 600 !important;
+  text-shadow: 0 0 5px black !important;
 }
-
