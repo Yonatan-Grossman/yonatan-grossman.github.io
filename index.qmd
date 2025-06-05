@@ -6,7 +6,7 @@ website:
       text: Home
     - about.qmd
 
-title: "Yonatan Grossman (that's not actually me but I couldn't find a photo I liked)"
+title: "Yonatan Grossman (that's not actually me (obviously) but I couldn't find a photo I liked)"
   
     
 toc: false
@@ -17,7 +17,10 @@ about:
   image-width: 17em
   links: 
     - text: Email
-      href: yonatan.grossman1@gmail.com
+      href: mailto:yonatan.grossman1@gmail.com
+    - text: GitHub
+      href: https://github.com/Yonatan-Grossman
+
 
 format:
   html:

@@ -57,7 +57,6 @@ title: "My college experience so far in photos"
 
 ### Junior year
 
-![Really good meal I cooked](images/gallery/Really_good_meal_I_cooked.jpeg){.lightbox group="junior year"}
 
 ![Halloween town 3](images/gallery/Halloween_town_3.jpeg){.lightbox group="junior year"}
 
@@ -75,4 +74,4 @@ title: "My college experience so far in photos"
 
 ![Music festival](images/gallery/music_festival!.jpeg){.lightbox group="junior year"}
 
-![Massive piece of Jarlsberg cheese that felt noteworthy](images/gallery/massive_piece_of_jarlsburg_cheese_that_felt_noteworthy.jpeg){.lightbox group="junior year"}
+![Massive piece of Jarlsberg that felt noteworthy](images/gallery/massive_piece_of_jarlsburg_cheese_that_felt_noteworthy.jpeg){.lightbox group="junior year"}
