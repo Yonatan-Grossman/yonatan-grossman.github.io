@@ -50,7 +50,9 @@ a:hover {
   color: #black;
 }
 
-.lb-caption {
-  color: white !important;  
+.lb-caption,
+.lb-data .lb-caption {
+  color: white !important;
   text-align: center;
 }
+
