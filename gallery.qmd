@@ -4,75 +4,72 @@ title: "My college experience so far in photos"
 
 ### Freshman year
 
-![On my way!](images/gallery/omw.jpg){.lightbox group="freshman year" caption="On my way!"}
+![On my way!](images/gallery/omw.jpg){.lightbox group="freshman year" title="On my way!"}
 
-![Arrived](images/gallery/arrived.jpg){.lightbox group="freshman year" caption="Arrived"}
-![Welcome to school rave](images/gallery/storke_rave.jpg){.lightbox group="freshman year" caption="Welcome to school rave"}
+![Arrived](images/gallery/arrived.jpg){.lightbox group="freshman year" title="Arrived" width="561"} ![Welcome to school rave](images/gallery/storke_rave.jpg){.lightbox group="freshman year" title="Welcome to school rave" width="565"}
 
-![Sunset](images/gallery/beach_sunset.jpg){.lightbox group="freshman year" caption="Sunset"}
+![Sunset](images/gallery/beach_sunset.jpg){.lightbox group="freshman year" title="Sunset" width="616"}
 
-![Seal some folks found on te beach](images/gallery/dead_seal.jpg){.lightbox group="freshman year" caption="Seal some folks found on te beach"} 
-![Pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year" caption="Pelicans"}
+![Seal some folks found on te beach](images/gallery/dead_seal.jpg){.lightbox group="freshman year" title="Seal some folks found on te beach" width="605"} ![Pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year" title="Pelicans" width="606"}
 
-![Rock sample for a lab I was working for](images/gallery/rocks.jpg){.lightbox group="freshman year" caption="Rock sample for a lab I was working for"}
+![Rock sample for a lab I was working for](images/gallery/rocks.jpg){.lightbox group="freshman year" title="Rock sample for a lab I was working for" width="644"}
 
-![The Longest Johns! (Sea shanty concert. It was awesome)](images/gallery/tlj.jpg){.lightbox group="freshman year" caption="The Longest Johns! (Sea shanty concert. It was awesome)"}
+![The Longest Johns! (Sea shanty concert. It was awesome)](images/gallery/tlj.jpg){.lightbox group="freshman year" title="The Longest Johns! (Sea shanty concert. It was awesome)"}
 
-![On set, assistant directing](images/gallery/filming.jpg){.lightbox group="freshman year" caption="On set, assistant directing"}
+![On set, assistant directing](images/gallery/filming.jpg){.lightbox group="freshman year" title="On set, assistant directing"}
 
-![Halloween town (Anisq'Oyo park in Isla Vista during Halloween)](images/gallery/halloween_town.jpg){.lightbox group="freshman year" caption="Halloween town (Anisq'Oyo park in Isla Vista during Halloween)"}
+![Halloween town (Anisq'Oyo park in Isla Vista during Halloween)](images/gallery/halloween_town.jpg){.lightbox group="freshman year" title="Halloween town (Anisq'Oyo park in Isla Vista during Halloween)"}
 
-![My first Jack O'lantern!](images/gallery/clancy.jpeg){.lightbox group="freshman year" caption="My first Jack O'lantern!"}
+![My first Jack O'lantern!](images/gallery/clancy.jpeg){.lightbox group="freshman year" title="My first Jack O'lantern!"}
 
-![Montecito hotsprings](images/gallery/hotspring_hike.jpg){.lightbox group="freshman year" caption="Montecito hotsprings"}
+![Montecito hotsprings](images/gallery/hotspring_hike.jpg){.lightbox group="freshman year" title="Montecito hotsprings"}
 
-![Spring quarter starts](images/gallery/lounging.jpg){.lightbox group="freshman year" caption="Spring quarter starts"}
+![Spring quarter starts](images/gallery/lounging.jpg){.lightbox group="freshman year" title="Spring quarter starts"}
 
-![Joshua Tree](images/gallery/jtree.jpg){.lightbox group="freshman year" caption="Joshua Tree"}
+![Joshua Tree](images/gallery/jtree.jpg){.lightbox group="freshman year" title="Joshua Tree"}
 
-![Filming in Fresno, first week of summer](images/gallery/fresno.jpg){.lightbox group="freshman year" caption="Filming in Fresno, first week of summer"}
+![Filming in Fresno, first week of summer](images/gallery/fresno.jpg){.lightbox group="freshman year" title="Filming in Fresno, first week of summer"}
 
 ### Sophomore year
 
-![Chem 1A (starting my science classes)](images/gallery/chem.jpg){.lightbox group="sophomore year" caption="Chem 1A (starting my science classes)"}
-![Absolutely terrible play I saw at the beginning of the year](images/gallery/terrible_play.jpeg){.lightbox group="sophomore year" caption="Absolutely terrible play I saw at the beginning of the year"}
+![Chem 1A (starting my science classes)](images/gallery/chem.jpg){.lightbox group="sophomore year" title="Chem 1A (starting my science classes)"} ![Absolutely terrible play I saw at the beginning of the year](images/gallery/terrible_play.jpeg){.lightbox group="sophomore year" title="Absolutely terrible play I saw at the beginning of the year"}
 
-![Halloween town 2: The second one](images/gallery/halloween_town_2.jpeg){.lightbox group="sophomore year" caption="Halloween town 2: The second one"}
+![Halloween town 2: The second one](images/gallery/halloween_town_2.jpeg){.lightbox group="sophomore year" title="Halloween town 2: The second one"}
 
-![Homegrown mushrooms (From a kit)](images/gallery/mushrooms.jpeg){.lightbox group="sophomore year" caption="Homegrown mushrooms (From a kit)"}
+![Homegrown mushrooms (From a kit)](images/gallery/mushrooms.jpeg){.lightbox group="sophomore year" title="Homegrown mushrooms (From a kit)"}
 
-![Dance competition!](images/gallery/dance_comp.jpeg){.lightbox group="sophomore year" caption="Dance competition!"}
+![Dance competition!](images/gallery/dance_comp.jpeg){.lightbox group="sophomore year" title="Dance competition!"}
 
-![Escape room](images/gallery/escape room.jpeg){.lightbox group="sophomore year" caption="Escape room"}
+![Escape room](images/gallery/escape%20room.jpeg){.lightbox group="sophomore year" title="Escape room"}
 
-![Yosemite trip!](images/gallery/yosemite.jpeg){.lightbox group="sophomore year" caption="Yosemite trip!"}
+![Yosemite trip!](images/gallery/yosemite.jpeg){.lightbox group="sophomore year" title="Yosemite trip!"}
 
-![Basic needs conference in Sacremento](images/gallery/chebna.jpeg){.lightbox group="sophomore year" caption="Basic needs conference in Sacremento"}
+![Basic needs conference in Sacremento](images/gallery/chebna.jpeg){.lightbox group="sophomore year" title="Basic needs conference in Sacremento"}
 
-![Another sunset cuz they're pretty](images/gallery/another_sunset.jpeg){.lightbox group="sophomore year" caption="Another sunset cuz they're pretty"}
+![Another sunset cuz they're pretty](images/gallery/another_sunset.jpeg){.lightbox group="sophomore year" title="Another sunset cuz they're pretty"}
 
-![Saw some bioluminesence at Manzanita beach!](images/gallery/bioluminesence.jpeg){.lightbox group="sophomore year" caption="Saw some bioluminesence at Manzanita beach!"}
+![Saw some bioluminesence at Manzanita beach!](images/gallery/bioluminesence.jpeg){.lightbox group="sophomore year" title="Saw some bioluminesence at Manzanita beach!"}
 
-![Some dragons I made for a movie](images/gallery/dragons.jpeg){.lightbox group="sophomore year" caption="Some dragons I made for a movie"}
+![Some dragons I made for a movie](images/gallery/dragons.jpeg){.lightbox group="sophomore year" title="Some dragons I made for a movie"}
 
-![Another movie I worked on this year](images/gallery/more_filming.jpeg){.lightbox group="sophomore year" caption="Another movie I worked on this year"}
+![Another movie I worked on this year](images/gallery/more_filming.jpeg){.lightbox group="sophomore year" title="Another movie I worked on this year"}
 
 ### Junior year
 
-![Halloween town 3](images/gallery/Halloween_town_3.jpeg){.lightbox group="junior year" caption="Halloween town 3"}
+![Halloween town 3](images/gallery/Halloween_town_3.jpeg){.lightbox group="junior year" title="Halloween town 3"}
 
-![First time in LA proper](images/gallery/first_time_in_LA.jpeg){.lightbox group="junior year" caption="First time in LA proper"}
+![First time in LA proper](images/gallery/first_time_in_LA.jpeg){.lightbox group="junior year" title="First time in LA proper"}
 
-![Packing boxes at my job](images/gallery/packing_boxes_at_my_job.jpeg){.lightbox group="junior year" caption="Packing boxes at my job"}
+![Packing boxes at my job](images/gallery/packing_boxes_at_my_job.jpeg){.lightbox group="junior year" title="Packing boxes at my job"}
 
-![Channel Island trip (Santa Cruz Island)](images/gallery/channel_island_trip.jpeg){.lightbox group="junior year" caption="Channel Island trip (Santa Cruz Island)"}
+![Channel Island trip (Santa Cruz Island)](images/gallery/channel_island_trip.jpeg){.lightbox group="junior year" title="Channel Island trip (Santa Cruz Island)"}
 
-![Hike with study abroad friends I met in Costa Rica (they're UCSB students)](images/gallery/hike_with_study_abroad_friends.jpeg){.lightbox group="junior year" caption="Hike with study abroad friends I met in Costa Rica (they're UCSB students)"}
+![Hike with study abroad friends I met in Costa Rica (they're UCSB students)](images/gallery/hike_with_study_abroad_friends.jpeg){.lightbox group="junior year" title="Hike with study abroad friends I met in Costa Rica (they're UCSB students)"}
 
-![Pinnacles National Park](images/gallery/pinnicles_national_park.jpeg){.lightbox group="junior year" caption="Pinnacles National Park"}
+![Pinnacles National Park](images/gallery/pinnicles_national_park.jpeg){.lightbox group="junior year" title="Pinnacles National Park"}
 
-![Another pretty sunset](images/gallery/another_pretty_sunset.jpeg){.lightbox group="junior year" caption="Another pretty sunset"}
+![Another pretty sunset](images/gallery/another_pretty_sunset.jpeg){.lightbox group="junior year" title="Another pretty sunset"}
 
-![Music festival (LIB 2025)](images/gallery/music_festival!.jpeg){.lightbox group="junior year" caption="Music festival (LIB 2025)"}
+![Music festival (LIB 2025)](images/gallery/music_festival!.jpeg){.lightbox group="junior year" title="Music festival (LIB 2025)"}
 
-![Massive piece of Jarlsberg that felt noteworthy](images/gallery/massive_piece_of_jarlsburg_cheese_that_felt_noteworthy.jpeg){.lightbox group="junior year" caption="Massive piece of Jarlsberg that felt noteworthy"}
+![Massive piece of Jarlsberg that felt noteworthy](images/gallery/massive_piece_of_jarlsburg_cheese_that_felt_noteworthy.jpeg){.lightbox group="junior year" title="Massive piece of Jarlsberg that felt noteworthy"}
