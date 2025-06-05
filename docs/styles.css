@@ -1,0 +1,35 @@
+/*-- css:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
+
+body {
+  background-color: #005f99; 
+  color: #222;              
+}
+
+
+h1, h2, h3, h4 {
+  color: #2c3e50; 
+}
+
+
+.navbar {
+  background-color: #007acc;
+}
+.navbar a {
+  color: white;
+}
