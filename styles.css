@@ -51,7 +51,7 @@ a:hover {
 }
 
 
-figtitle {
+figcaption {
   color: white !important;
   text-align: center;
   font-weight: 600;
@@ -65,4 +65,6 @@ img.lightbox {
   box-sizing: border-box;
   position: relative;
   clear: both;
+}
+
 }
