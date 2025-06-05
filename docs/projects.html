@@ -205,10 +205,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'tidyverse' was built under R version 4.4.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'purrr' was built under R version 4.4.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'lubridate' was built under R version 4.4.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
 <pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
 ✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.5.2     ✔ tibble    3.2.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
 ✔ lubridate 1.9.4     ✔ tidyr     1.3.1
 ✔ purrr     1.0.4     
 ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
@@ -216,7 +225,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'janitor' was built under R version 4.4.2</code></pre>
+</div>
 <div class="cell-output cell-output-stderr">
 <pre><code>
 Attaching package: 'janitor'
@@ -227,50 +239,50 @@ The following objects are masked from 'package:stats':
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>religion <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/religion_data.csv"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="fu">where</span>(<span class="sc">~</span> <span class="fu">any</span>(<span class="sc">!</span><span class="fu">is.na</span>(.x)))) <span class="co">#read in the data then clean it. Also removes columns with n/a values</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>religion <span class="ot">&lt;-</span> religion[<span class="dv">1</span><span class="sc">:</span><span class="dv">35</span>, ] <span class="co">#only keeps the first 35 rows (since the rest were n/a values)</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>religion <span class="ot">&lt;-</span> religion <span class="sc">|&gt;</span> </span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">c</span>(<span class="st">"x_63"</span>, <span class="st">"x_67"</span>, <span class="st">"x_70"</span>, <span class="st">"x_73"</span>, <span class="st">"code"</span>, <span class="st">"total"</span>)) <span class="co">#getting rid of some extra columns not useful to this graoph</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>religion <span class="ot">&lt;-</span>religion <span class="sc">|&gt;</span> </span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">other =</span></span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>           other_religions_and_persuasions_incl_unclassified_sect,</span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>         <span class="st">"not stated"</span> <span class="ot">=</span> religion_not_stated,</span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>         <span class="at">State =</span> area_name) <span class="sc">|&gt;</span> <span class="co">#rename the longer column names to something easier/more accurate</span></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>( <span class="at">cols =</span> <span class="sc">-</span>State,</span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>                <span class="at">names_to =</span> <span class="st">"Religion"</span>,</span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>                <span class="at">values_to =</span> <span class="st">"Population"</span>) <span class="co">#pivot the data to long format so there's only three columns</span></span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>top_religions <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"hindu"</span>, <span class="st">"muslim"</span>, <span class="st">"christian"</span>, <span class="st">"sikh"</span>) <span class="co">#new variable of the 4 most populous religions</span></span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>religion <span class="ot">&lt;-</span> religion <span class="sc">|&gt;</span></span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">Religion =</span> <span class="fu">fct_other</span>(Religion,</span>
-<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>                         <span class="at">keep =</span> top_religions,</span>
-<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>                         <span class="at">other_level =</span> <span class="st">"other"</span>)) <span class="sc">|&gt;</span> <span class="co">#drops all religions that aren't in the top religions and puts them in an "other" catagory (this turns them into levels)</span></span>
-<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(State,</span>
-<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>           Religion) <span class="sc">|&gt;</span>     </span>
-<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Population =</span> <span class="fu">sum</span>(Population,</span>
-<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>                             <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
-<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>            <span class="at">.groups =</span> <span class="st">"drop"</span>) <span class="co">#sum the values of the dropped religions into an other level</span></span>
-<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>religion<span class="sc">$</span>Religion <span class="ot">&lt;-</span> <span class="fu">factor</span>(religion<span class="sc">$</span>Religion, <span class="at">levels=</span><span class="fu">c</span>(<span class="st">'hindu'</span>, <span class="st">'muslim'</span>, <span class="st">'christian'</span>, <span class="st">'sikh'</span>, <span class="st">'other'</span>)) <span class="co">#defines levels to control the order the religions are displayed</span></span>
-<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(religion, <span class="co">#data</span></span>
-<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> State, </span>
-<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>           <span class="at">y =</span> Population,</span>
-<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>           <span class="at">fill =</span> Religion)) <span class="sc">+</span> <span class="co">#axis definition + allows the fill color to be chosed by the religion</span></span>
-<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">"fill"</span>, <span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span> <span class="co">#make a stacked bar graph</span></span>
-<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="dv">7</span>)) <span class="sc">+</span> <span class="co">#tilt the x-axis labels and makes them smaller so it's easier to read</span></span>
-<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Religion in Indian States by Percent of Population"</span>,</span>
-<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Yonatan Grossman"</span>,</span>
-<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"Data from:  http://censusindia.gov.in"</span>) <span class="sc">+</span> <span class="co">#adds title, subtitle, and caption</span></span>
-<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"Population Percent"</span>) <span class="sc">+</span> <span class="co">#edits the y-axis label</span></span>
-<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#F4C430"</span>,<span class="st">"#219909"</span>, <span class="st">"white"</span>,<span class="st">"#003688"</span>,<span class="st">"red"</span>)) <span class="co">#chooses colors (I tried to choose ones that were significant to the religions and also contrasted well)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>religion <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/religion_data.csv"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="fu">where</span>(<span class="sc">~</span> <span class="fu">any</span>(<span class="sc">!</span><span class="fu">is.na</span>(.x)))) <span class="co">#read in the data then clean it. Also removes columns with n/a values</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>religion <span class="ot">&lt;-</span> religion[<span class="dv">1</span><span class="sc">:</span><span class="dv">35</span>, ] <span class="co">#only keeps the first 35 rows (since the rest were n/a values)</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>religion <span class="ot">&lt;-</span> religion <span class="sc">|&gt;</span> </span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">c</span>(<span class="st">"x_63"</span>, <span class="st">"x_67"</span>, <span class="st">"x_70"</span>, <span class="st">"x_73"</span>, <span class="st">"code"</span>, <span class="st">"total"</span>)) <span class="co">#getting rid of some extra columns not useful to this graoph</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>religion <span class="ot">&lt;-</span>religion <span class="sc">|&gt;</span> </span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">other =</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>           other_religions_and_persuasions_incl_unclassified_sect,</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>         <span class="st">"not stated"</span> <span class="ot">=</span> religion_not_stated,</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>         <span class="at">State =</span> area_name) <span class="sc">|&gt;</span> <span class="co">#rename the longer column names to something easier/more accurate</span></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>( <span class="at">cols =</span> <span class="sc">-</span>State,</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>                <span class="at">names_to =</span> <span class="st">"Religion"</span>,</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>                <span class="at">values_to =</span> <span class="st">"Population"</span>) <span class="co">#pivot the data to long format so there's only three columns</span></span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>top_religions <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"hindu"</span>, <span class="st">"muslim"</span>, <span class="st">"christian"</span>, <span class="st">"sikh"</span>) <span class="co">#new variable of the 4 most populous religions</span></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>religion <span class="ot">&lt;-</span> religion <span class="sc">|&gt;</span></span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">Religion =</span> <span class="fu">fct_other</span>(Religion,</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>                         <span class="at">keep =</span> top_religions,</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>                         <span class="at">other_level =</span> <span class="st">"other"</span>)) <span class="sc">|&gt;</span> <span class="co">#drops all religions that aren't in the top religions and puts them in an "other" catagory (this turns them into levels)</span></span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(State,</span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a>           Religion) <span class="sc">|&gt;</span>     </span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Population =</span> <span class="fu">sum</span>(Population,</span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>                             <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>            <span class="at">.groups =</span> <span class="st">"drop"</span>) <span class="co">#sum the values of the dropped religions into an other level</span></span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>religion<span class="sc">$</span>Religion <span class="ot">&lt;-</span> <span class="fu">factor</span>(religion<span class="sc">$</span>Religion, <span class="at">levels=</span><span class="fu">c</span>(<span class="st">'hindu'</span>, <span class="st">'muslim'</span>, <span class="st">'christian'</span>, <span class="st">'sikh'</span>, <span class="st">'other'</span>)) <span class="co">#defines levels to control the order the religions are displayed</span></span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(religion, <span class="co">#data</span></span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> State, </span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a>           <span class="at">y =</span> Population,</span>
+<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a>           <span class="at">fill =</span> Religion)) <span class="sc">+</span> <span class="co">#axis definition + allows the fill color to be chosed by the religion</span></span>
+<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">"fill"</span>, <span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span> <span class="co">#make a stacked bar graph</span></span>
+<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="dv">7</span>)) <span class="sc">+</span> <span class="co">#tilt the x-axis labels and makes them smaller so it's easier to read</span></span>
+<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Religion in Indian States by Percent of Population"</span>,</span>
+<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Yonatan Grossman"</span>,</span>
+<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"Data from:  http://censusindia.gov.in"</span>) <span class="sc">+</span> <span class="co">#adds title, subtitle, and caption</span></span>
+<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"Population Percent"</span>) <span class="sc">+</span> <span class="co">#edits the y-axis label</span></span>
+<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#F4C430"</span>,<span class="st">"#219909"</span>, <span class="st">"white"</span>,<span class="st">"#003688"</span>,<span class="st">"red"</span>)) <span class="co">#chooses colors (I tried to choose ones that were significant to the religions and also contrasted well)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -849,7 +861,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":true});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":true,"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

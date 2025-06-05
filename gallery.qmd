@@ -11,8 +11,7 @@ title: "My college experience so far in photos"
 
 ![Sunset](images/gallery/beach_sunset.jpg){.lightbox group="freshman year"}
 
-![Seal we found](images/gallery/dead_seal.jpg){.lightbox group="freshman year"}
-![Pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year"}
+![Seal we found](images/gallery/dead_seal.jpg){.lightbox group="freshman year"} ![Pelicans](images/gallery/pelican.jpg){.lightbox group="freshman year"}
 
 ![Rocks](images/gallery/rocks.jpg){.lightbox group="freshman year"}
 
@@ -34,8 +33,7 @@ title: "My college experience so far in photos"
 
 ### Sophomore year
 
-![Chem 1A (starting my science classes)](images/gallery/chem.jpg){.lightbox group="sophomore year"}
-![Absolutely terrible play I saw at the beginning of the year](images/gallery/terrible_play.jpeg){.lightbox group="sophomore year"}
+![Chem 1A (starting my science classes)](images/gallery/chem.jpg){.lightbox group="sophomore year"} ![Absolutely terrible play I saw at the beginning of the year](images/gallery/terrible_play.jpeg){.lightbox group="sophomore year"}
 
 ![Halloween town 2: The second one](images/gallery/halloween_town_2.jpeg){.lightbox group="sophomore year"}
 
@@ -43,14 +41,13 @@ title: "My college experience so far in photos"
 
 ![Dance competition!](images/gallery/dance_comp.jpeg){.lightbox group="sophomore year"}
 
-![Escape room](images/gallery/escape room.jpeg){.lightbox group="sophomore year"}
+![Escape room](images/gallery/escape%20room.jpeg){.lightbox group="sophomore year"}
 
 ![Yosemite trip!](images/gallery/yosemite.jpeg){.lightbox group="sophomore year"}
 
 ![Basic needs conference in Sacremento](images/gallery/chebna.jpeg){.lightbox group="sophomore year"}
 
 ![Another sunset cuz they're pretty](images/gallery/another_sunset.jpeg){.lightbox group="sophomore year"}
-
 
 ![Saw some bioluminesence!](images/gallery/bioluminesence.jpeg){.lightbox group="sophomore year"}
 

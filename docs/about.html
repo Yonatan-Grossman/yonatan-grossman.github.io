@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -151,14 +154,32 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="staying-active">Staying active</h4>
 <p>I’ve never really enjoyed going to the gym, but I do love to stay active. Over my 3 years at UCSB I have spent a lot of my time surfing, hiking, swimming, rock climbing, juggling, dancing, and, most recently, started learning parkour and jiu jitsu. I always enjoy learning a new physical skill and it’s been really cool learning how to move in new and different ways.</p>
 <p>This also includes spending as much time in nature as possible, and outside of spending time by the ocean and in the mountains I have managed to visit five of the nine national parks in California with plans to visit at least two more before I graduate.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/surfing.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="That’s not me but I don’t have photos of me surfing"><img src="images/surfing.jpg" class="img-fluid figure-img" alt="That’s not me but I don’t have photos of me surfing"></a></p>
+<figcaption>That’s not me but I don’t have photos of me surfing</figcaption>
+</figure>
+</div>
 </section>
 <section id="working-creatively" class="level4">
 <h4 class="anchored" data-anchor-id="working-creatively">Working creatively</h4>
 <p>Although this past quarter I have been somewhat focused on my work since I’ve been swamped with classes, I’ve been lucky enough to spend a good chunk of my time on creative outlets. I’ve acted for and assistant directed for film, as well as acted and written for several theater productions. I’ve also collaborated with friends on scripts and always have a few writing projects in my back pockets. Since taking GIS classes earlier this year I have taken an interest in map-making, and been using map-making as a creative outlet for my passion for cartography and data science.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/stage.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="No Tony awards yet"><img src="images/stage.jpg" class="img-fluid figure-img" alt="No Tony awards yet"></a></p>
+<figcaption>No Tony awards yet</figcaption>
+</figure>
+</div>
 </section>
 <section id="cooking" class="level4">
 <h4 class="anchored" data-anchor-id="cooking">Cooking</h4>
 <p>Although I always thought I was a somewhat decent cook, living on my own and shopping for myself has really pushed me to learn more ways of feeding myself. No one tells you that one of the hardest part of growing up is having to decide what to eat 2-3 times a day for the rest of your life, but it really is. I’ve taken this opportunity, however, to improve my skill in the kitchen and branch out into new territories. Two years ago I had never really cooked meat of any kind by myself, and now I have several recipes in the back of my mind for most type of protein. It’s also given me an education in creativity, because sometime it’s 10pm, you need to make dinner, and all you have is three cans of beans and tomatoes and some spices. I’ve really enjoyed increasing my competency in the kitchen and now look forward to trying out new recipes whenever I can.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gallery/Really_good_meal_I_cooked.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Really good meal I cooked"><img src="images/gallery/Really_good_meal_I_cooked.jpeg" class="img-fluid figure-img" alt="Really good meal I cooked"></a></p>
+<figcaption>Really good meal I cooked</figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -729,6 +750,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":true,"selector":".lightbox","descPosition":"bottom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
