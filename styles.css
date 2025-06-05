@@ -56,3 +56,11 @@ figcaption {
   text-align: center;
   font-weight: 600;
 }
+
+
+img.lightbox {
+  display: block;      
+  max-width: 100%;     
+  margin: 1em auto;       
+  box-sizing: border-box;
+}
