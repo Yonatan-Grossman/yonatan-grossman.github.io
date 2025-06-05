@@ -50,9 +50,9 @@ a:hover {
   color: #black;
 }
 
-.gslide-title {
+
+.lb-caption {
   color: white !important;
   text-align: center;
-  font-weight: 600 !important;
-  text-shadow: 0 0 5px black !important;
+  font-weight: 600;
 }
