@@ -4,8 +4,6 @@ title: "My college experience so far in photos"
 
 ### Freshman year
 
-::: {.gallery}
-
 ![On my way!](images/gallery/omw.jpg){.lightbox group="freshman year" caption="On my way!"}
 
 ![Arrived](images/gallery/arrived.jpg){.lightbox group="freshman year" caption="Arrived"}
@@ -34,11 +32,7 @@ title: "My college experience so far in photos"
 
 ![Filming in Fresno, first week of summer](images/gallery/fresno.jpg){.lightbox group="freshman year" caption="Filming in Fresno, first week of summer"}
 
-:::
-
 ### Sophomore year
-
-::: {.gallery}
 
 ![Chem 1A (starting my science classes)](images/gallery/chem.jpg){.lightbox group="sophomore year" caption="Chem 1A (starting my science classes)"}
 ![Absolutely terrible play I saw at the beginning of the year](images/gallery/terrible_play.jpeg){.lightbox group="sophomore year" caption="Absolutely terrible play I saw at the beginning of the year"}
@@ -62,11 +56,8 @@ title: "My college experience so far in photos"
 ![Some dragons I made for a movie](images/gallery/dragons.jpeg){.lightbox group="sophomore year" caption="Some dragons I made for a movie"}
 
 ![Another movie I worked on this year](images/gallery/more_filming.jpeg){.lightbox group="sophomore year" caption="Another movie I worked on this year"}
-:::
 
 ### Junior year
-
-::: {.gallery}
 
 ![Halloween town 3](images/gallery/Halloween_town_3.jpeg){.lightbox group="junior year" caption="Halloween town 3"}
 
@@ -85,4 +76,3 @@ title: "My college experience so far in photos"
 ![Music festival (LIB 2025)](images/gallery/music_festival!.jpeg){.lightbox group="junior year" caption="Music festival (LIB 2025)"}
 
 ![Massive piece of Jarlsberg that felt noteworthy](images/gallery/massive_piece_of_jarlsburg_cheese_that_felt_noteworthy.jpeg){.lightbox group="junior year" caption="Massive piece of Jarlsberg that felt noteworthy"}
-:::

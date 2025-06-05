@@ -63,22 +63,5 @@ img.lightbox {
   max-width: 100%;     
   margin: 1em auto;       
   box-sizing: border-box;
-}
-
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1em; 
-  margin-bottom: 2em;
-}
-
-
-.gallery img.lightbox {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  width: 300px; 
-  box-sizing: border-box;
+  position: relative;
 }
