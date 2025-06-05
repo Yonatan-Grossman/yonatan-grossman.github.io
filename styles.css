@@ -51,6 +51,6 @@ a:hover {
 }
 
 .lb-caption {
-  color: white;  
+  color: white !important;  
   text-align: center;
 }
